@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+		<title>Precision in Practice: Real-world Impact of AI – A Case Study &#8211; AI</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="AI &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="AI &raquo; Comments Feed" href="../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="AI &raquo; Precision in Practice: Real-world Impact of AI – A Case Study Comments Feed" href="feed/index.html" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/ai.local\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min.css@ver=6.7.1.css' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='elementor-frontend-css' href='../wp-content/uploads/elementor/css/custom-frontend.min.css@ver=1734969154.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-5-css' href='../wp-content/uploads/elementor/css/post-5.css@ver=1734969154.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-text-editor-css' href='../wp-content/plugins/elementor/assets/css/widget-text-editor.min.css@ver=3.26.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='../wp-content/uploads/elementor/css/custom-widget-icon-list.min.css@ver=1734969154.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-437-css' href='../wp-content/uploads/elementor/css/post-437.css@ver=1734969252.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-247-css' href='../wp-content/uploads/elementor/css/post-247.css@ver=1734969155.css' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animation-grow-css' href='../wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css@ver=3.26.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='../wp-content/plugins/elementor/assets/css/widget-social-icons.min.css@ver=3.26.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='../wp-content/uploads/elementor/css/custom-apple-webkit.min.css@ver=1734969154.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='../wp-content/plugins/elementor/assets/css/widget-heading.min.css@ver=3.26.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-divider-css' href='../wp-content/plugins/elementor/assets/css/widget-divider.min.css@ver=3.26.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-256-css' href='../wp-content/uploads/elementor/css/post-256.css@ver=1734973499.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1135-css' href='../wp-content/uploads/elementor/css/post-1135.css@ver=1734969258.css' type='text/css' media='all' />
+<link rel='stylesheet' id='royal-elementor-kit-style-css' href='../wp-content/themes/royal-elementor-kit/style.css@ver=1.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpr-link-animations-css-css' href='../wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-link-animations.min.css@ver=1.7.1005.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpr-text-animations-css-css' href='../wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css@ver=1.7.1005.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpr-addons-css-css' href='../wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css@ver=1.7.1005.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css@ver=1.7.1005.css' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CKanit%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSyne%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.1' type='text/css' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type="text/javascript" data-cfasync="false" src="../wp-includes/js/jquery/jquery.min.js@ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" data-cfasync="false" src="../wp-includes/js/jquery/jquery-migrate.min.js@ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/posts/437" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php@rsd" />
+<meta name="generator" content="WordPress 6.7.1" />
+<link rel="canonical" href="../index.html@p=437.html" />
+<link rel='shortlink' href='../index.html@p=437.html' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="../wp-json/oembed/1.0/embed@url=http%253A%252F%252Fai.local%252Fprecision-in-practice-real-world-impact-of-ai-a-case-study%252F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed@url=http%253A%252F%252Fai.local%252Fprecision-in-practice-real-world-impact-of-ai-a-case-study%252F&amp;format=xml" />
+<meta name="generator" content="Elementor 3.26.3; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<style id="wpr_lightbox_styles">
+				.lg-backdrop {
+					background-color: rgba(0,0,0,0.6) !important;
+				}
+				.lg-toolbar,
+				.lg-dropdown {
+					background-color: rgba(0,0,0,0.8) !important;
+				}
+				.lg-dropdown:after {
+					border-bottom-color: rgba(0,0,0,0.8) !important;
+				}
+				.lg-sub-html {
+					background-color: rgba(0,0,0,0.8) !important;
+				}
+				.lg-thumb-outer,
+				.lg-progress-bar {
+					background-color: #444444 !important;
+				}
+				.lg-progress {
+					background-color: #a90707 !important;
+				}
+				.lg-icon {
+					color: #efefef !important;
+					font-size: 20px !important;
+				}
+				.lg-icon.lg-toogle-thumb {
+					font-size: 24px !important;
+				}
+				.lg-icon:hover,
+				.lg-dropdown-text:hover {
+					color: #ffffff !important;
+				}
+				.lg-sub-html,
+				.lg-dropdown-text {
+					color: #efefef !important;
+					font-size: 14px !important;
+				}
+				#lg-counter {
+					color: #efefef !important;
+					font-size: 14px !important;
+				}
+				.lg-prev,
+				.lg-next {
+					font-size: 35px !important;
+				}
+
+				/* Defaults */
+				.lg-icon {
+				background-color: transparent !important;
+				}
+
+				#lg-counter {
+				opacity: 0.9;
+				}
+
+				.lg-thumb-outer {
+				padding: 0 10px;
+				}
+
+				.lg-thumb-item {
+				border-radius: 0 !important;
+				border: none !important;
+				opacity: 0.5;
+				}
+
+				.lg-thumb-item.active {
+					opacity: 1;
+				}
+	         </style>	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
+
+<body class="post-template-default single single-post postid-437 single-format-standard wp-embed-responsive elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-437">
+			<div data-elementor-type="wp-post" data-elementor-id="247" class="elementor elementor-247">
+				<div class="elementor-element elementor-element-a90b1b9 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="a90b1b9" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2537bcc e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="2537bcc" data-element_type="container">
+				<div class="elementor-element elementor-element-4b59178 wpr-logo-position-center elementor-widget elementor-widget-wpr-logo" data-id="4b59178" data-element_type="widget" data-widget_type="wpr-logo.default">
+				<div class="elementor-widget-container">
+								
+			<div class="wpr-logo elementor-clearfix">
+
+								<picture class="wpr-logo-image">
+					
+										<source srcset="http://ai.local/wp-content/uploads/2024/02/Logo-1.png 1x, http://ai.local/wp-content/uploads/2024/02/Logo-Retina-1.png 2x">	
+										
+					<img src="../wp-content/uploads/2024/02/Logo-1.png" alt="">
+
+											<a class="wpr-logo-url" rel="home" href="../index.html"></a>
+									</picture>
+				
+				
+									<a class="wpr-logo-url" rel="home" href="../index.html"></a>
+				
+			</div>
+				
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-125f50f e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="125f50f" data-element_type="container">
+				<div class="elementor-element elementor-element-a4af07f wpr-main-menu-align-center wpr-main-menu-align--laptopcenter wpr-mobile-menu-custom-width wpr-main-menu-align--tabletleft wpr-pointer-underline wpr-pointer-line-fx wpr-pointer-fx-fade wpr-sub-icon-caret-down wpr-sub-menu-fx-fade wpr-nav-menu-bp-mobile wpr-mobile-menu-drdown-align-center wpr-mobile-menu-item-align-center wpr-mobile-toggle-v1 wpr-mobile-divider-yes elementor-widget elementor-widget-wpr-nav-menu" data-id="a4af07f" data-element_type="widget" data-settings="{&quot;menu_layout&quot;:&quot;horizontal&quot;}" data-widget_type="wpr-nav-menu.default">
+				<div class="elementor-widget-container">
+					<nav class="wpr-nav-menu-container wpr-nav-menu-horizontal" data-trigger="hover"><ul id="menu-1-a4af07f" class="wpr-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-445"><a href="../index.html" class="wpr-menu-item wpr-pointer-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1136"><a href="../index.html@p=9.html" class="wpr-menu-item wpr-pointer-item">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444"><a href="../index.html@p=8.html" class="wpr-menu-item wpr-pointer-item">Features</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1137"><a href="../index.html@p=679.html" class="wpr-menu-item wpr-pointer-item">Resources</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1138"><a href="../blog-aimatrix-v1/index.html" class="wpr-menu-item wpr-pointer-item">Case Study</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443"><a href="../index.html@p=442.html" class="wpr-menu-item wpr-pointer-item">Contact</a></li>
+</ul></nav><nav class="wpr-mobile-nav-menu-container"><div class="wpr-mobile-toggle-wrap"><div class="wpr-mobile-toggle"><span class="wpr-mobile-toggle-line"></span><span class="wpr-mobile-toggle-line"></span><span class="wpr-mobile-toggle-line"></span></div></div><ul id="mobile-menu-2-a4af07f" class="wpr-mobile-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-445"><a href="../index.html" class="wpr-mobile-menu-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1136"><a href="../index.html@p=9.html" class="wpr-mobile-menu-item">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444"><a href="../index.html@p=8.html" class="wpr-mobile-menu-item">Features</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1137"><a href="../index.html@p=679.html" class="wpr-mobile-menu-item">Resources</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1138"><a href="../blog-aimatrix-v1/index.html" class="wpr-mobile-menu-item">Case Study</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-443"><a href="../index.html@p=442.html" class="wpr-mobile-menu-item">Contact</a></li>
+</ul></nav>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ec8718b e-con-full elementor-hidden-mobile e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="ec8718b" data-element_type="container">
+				<div class="elementor-element elementor-element-156378b wpr-offcanvas-align-right wpr-offcanvas-entrance-animation-fade elementor-widget elementor-widget-wpr-offcanvas" data-id="156378b" data-element_type="widget" data-widget_type="wpr-offcanvas.default">
+				<div class="elementor-widget-container">
+					
+		<div class="wpr-offcanvas-container" data-offcanvas-open="no">
+			<button class="wpr-offcanvas-trigger">
+													<span>Request a Demo</span>
+							</button>
+
+			<div class="wpr-offcanvas-wrap wpr-offcanvas-wrap-right">
+				<div class="wpr-offcanvas-content wpr-offcanvas-content-right">
+					<div class="wpr-offcanvas-header">
+						<span class="wpr-close-offcanvas">
+							<i class="fa fa-times" aria-hidden="true"></i>
+						</span>
+											</div>
+							<div data-elementor-type="container" data-elementor-id="212" class="elementor elementor-212">
+				<div class="elementor-element elementor-element-1d6e8fdb e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="1d6e8fdb" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7c2a18ac elementor-widget elementor-widget-heading" data-id="7c2a18ac" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Request a Demo</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-10393d9c wpr-step-type-number_text wpr-step-content-layout-vertical wpr-custom-styles-yes elementor-widget elementor-widget-wpr-form-builder" data-id="10393d9c" data-element_type="widget" data-settings="{&quot;success_message&quot;:&quot;Submission successful&quot;,&quot;error_message&quot;:&quot;Please edit this form and setup your Email&quot;,&quot;button_width_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;button_width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:100,&quot;sizes&quot;:[]},&quot;button_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;button_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_content_layout&quot;:&quot;vertical&quot;}" data-widget_type="wpr-form-builder.default">
+				<div class="elementor-widget-container">
+							<form class="wpr-form" method="post" name="New Form" page="Precision in Practice: Real-world Impact of AI – A Case Study" page_id="437" novalidate>
+			<input type="hidden" name="post_id" value="437"/>
+			<input type="hidden" name="form_id" value="10393d9c"/>
+			<input type="hidden" name="referer_title" value="Precision in Practice: Real-world Impact of AI – A Case Study" />
+
+							<input type="hidden" name="queried_id" value="437"/>
+			<div class="wpr-step-wrap"></div>
+			<div class="wpr-form-fields-wrap wpr-labels-above">
+									<div class="wpr-form-field-type-text wpr-field-group wpr-column wpr-field-group-name elementor-repeater-item-e3ad2ae">
+														<label for="form-field-name" class="wpr-form-field-label">
+									Name								</label>
+							<input size="1 "type="text" name="form_fields[name]" id="form-field-name" class="wpr-form-field  wpr-form-field-textual" placeholder="Name">					</div>
+									<div class="wpr-form-field-type-email wpr-field-group wpr-column wpr-field-group-email elementor-repeater-item-4f2f6cb wpr-form-field-required">
+														<label for="form-field-email" class="wpr-form-field-label">
+									Email								</label>
+							<input size="1 "type="email" name="form_fields[email]" id="form-field-email" class="wpr-form-field  wpr-form-field-textual" placeholder="Email" required="required" aria-required="true">					</div>
+									<div class="wpr-form-field-type-textarea wpr-field-group wpr-column wpr-field-group-message elementor-repeater-item-42d9f1d">
+														<label for="form-field-message" class="wpr-form-field-label">
+									Message								</label>
+							<textarea class="wpr-form-field-textual wpr-form-field " name="form_fields[message]" id="form-field-message" rows="7" placeholder="Message"></textarea>					</div>
+				<div class="wpr-field-group wpr-stp-btns-wrap wpr-column wpr-form-field-type-submit" data-actions="[&quot;email&quot;]" data-redirect-url="" data-mailchimp-fields="{&quot;email_field&quot;:&quot;&quot;,&quot;first_name_field&quot;:&quot;&quot;,&quot;last_name_field&quot;:&quot;&quot;,&quot;address_field&quot;:&quot;&quot;,&quot;phone_field&quot;:&quot;&quot;,&quot;birthday_field&quot;:&quot;&quot;,&quot;group_id&quot;:&quot;&quot;}" data-list-id="">			<button type="submit" class="wpr-button">
+				<span >
+																<span>Book Now</span>
+														</span>	
+				<div class="wpr-double-bounce wpr-loader-hidden">
+					<div class="wpr-child wpr-double-bounce1"></div>
+					<div class="wpr-child wpr-double-bounce2"></div>
+				</div>
+			</button>
+		</div>				
+			</div>
+		</form>
+	  				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<span class="wpr-template-edit-btn" data-permalink="http://ai.local/?elementor_library=offcanvas">Edit Template</span>				</div>
+			</div>
+		</div>
+        
+    				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="wpr-theme-builder" data-elementor-id="1135" class="elementor elementor-1135 post-437 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+				<div class="elementor-element elementor-element-e59c50b e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="e59c50b" data-element_type="container">
+		<div class="elementor-element elementor-element-7818e34 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="7818e34" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4e95c639 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="4e95c639" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-67c5b610 elementor-widget elementor-widget-heading" data-id="67c5b610" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Case Study Details​</h2>				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-50f55cf5 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="50f55cf5" data-element_type="container">
+		<div class="elementor-element elementor-element-4e902328 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="4e902328" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4053e148 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="4053e148" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-5423a135 elementor-widget elementor-widget-heading" data-id="5423a135" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Case Study</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2446a1b6 elementor-widget elementor-widget-wpr-post-title" data-id="2446a1b6" data-element_type="widget" data-widget_type="wpr-post-title.default">
+				<div class="elementor-widget-container">
+					<h1 class="wpr-post-title">Precision in Practice: Real-world Impact of AI – A Case Study</h1>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-39e452bd e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="39e452bd" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-50ef0985 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="50ef0985" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-33ab5e8 elementor-widget elementor-widget-wpr-post-media" data-id="33ab5e8" data-element_type="widget" data-widget_type="wpr-post-media.default">
+				<div class="elementor-widget-container">
+					<div class="wpr-featured-media-wrap" data-caption="standard"><div class="wpr-featured-media-image" data-src="http://ai.local/wp-content/uploads/2024/02/Post-4.jpg"><img src="../wp-content/uploads/2024/02/Post-4.jpg" alt=""></div></div>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-2380a7da e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="2380a7da" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-3952ccf3 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="3952ccf3" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-70d11eb8 elementor-widget elementor-widget-counter" data-id="70d11eb8" data-element_type="widget" data-widget_type="counter.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-counter">
+			<div class="elementor-counter-title">Automated Conversion</div>			<div class="elementor-counter-number-wrapper">
+				<span class="elementor-counter-number-prefix"></span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="56" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number-suffix">M+</span>
+			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-a35db4c elementor-widget elementor-widget-counter" data-id="a35db4c" data-element_type="widget" data-widget_type="counter.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-counter">
+			<div class="elementor-counter-title">Success Rate</div>			<div class="elementor-counter-number-wrapper">
+				<span class="elementor-counter-number-prefix"></span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="95" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number-suffix">%</span>
+			</div>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-916d11d e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="916d11d" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1455cca elementor-widget elementor-widget-counter" data-id="1455cca" data-element_type="widget" data-widget_type="counter.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-counter">
+			<div class="elementor-counter-title">Innovative Features</div>			<div class="elementor-counter-number-wrapper">
+				<span class="elementor-counter-number-prefix"></span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="22" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number-suffix">+</span>
+			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-231ebc3d elementor-widget elementor-widget-counter" data-id="231ebc3d" data-element_type="widget" data-widget_type="counter.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-counter">
+			<div class="elementor-counter-title">Happy Users</div>			<div class="elementor-counter-number-wrapper">
+				<span class="elementor-counter-number-prefix"></span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="25" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number-suffix">K+</span>
+			</div>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-25b95c77 elementor-widget elementor-widget-wpr-post-content" data-id="25b95c77" data-element_type="widget" data-widget_type="wpr-post-content.default">
+				<div class="elementor-widget-container">
+					<div class="wpr-post-content">		<div data-elementor-type="wp-post" data-elementor-id="437" class="elementor elementor-437">
+				<div class="elementor-element elementor-element-e6078b7 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="e6078b7" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-483e6d3 elementor-widget elementor-widget-text-editor" data-id="483e6d3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									
+<p>Certain but she but shyness why cottage. Gay the put instrument sir entreaties affronting. Pretended exquisite see cordially the you. Weeks quiet do vexed or whose. Motionless if no to affronting imprudence no precaution. My indulged as disposal strongly attended. Parlors men express had private village man. Discovery moonlight recommend all one not. Indulged to answered prospect it bachelor is he bringing shutters. Pronounce forfeited mr direction oh he dashwoods ye unwilling.</p>
+								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-264f35a e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="264f35a" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-09ee432 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="09ee432" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1b3ea46 elementor-widget elementor-widget-text-editor" data-id="1b3ea46" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									Certain but she but shyness why cottage. Gay the put instrument sir entreaties affronting. Pretended exquisite see cordially the you. Weeks quiet do vexed or whose. Motionless if no to affronting imprudence no precaution. My indulged as disposal strongly attended. Parlors men express had private village man. Discovery moonlight recommend all one not. Indulged to answered prospect it bachelor is he bringing shutters. Pronounce forfeited mr direction oh he dashwoods ye unwilling.<br /><br />Lose away off why half led have near bed. At engage simple father of period others except. My giving do summer of though narrow marked at. Spring formal no county ye waited. My whether cheered at regular it of promise blushes perhaps. Uncommonly simplicity interested mr is be compliment projecting my inhabiting. Gentleman he september in oh excellent.								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-045d662 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="045d662" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-85c1513 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="85c1513" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Offer users tailored content or product recommendations based on their preferences and behavior.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Implement AI-driven chatbots to enhance user engagement and provide instant support.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Enable image recognition features for tasks like facial recognition, object identification, or image categorization.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Integrate NLP to enhance language understanding, sentiment analysis, and language generation.</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Provide users with predictive insights and analytics using AI models to anticipate trends or outcomes.</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		</div>				</div>
+				</div>
+		<div class="elementor-element elementor-element-55151bbe e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="55151bbe" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-4fabc6ae e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="4fabc6ae" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1f1ded9b elementor-widget elementor-widget-heading" data-id="1f1ded9b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Core Features</h2>				</div>
+				</div>
+		<div class="elementor-element elementor-element-74ed1dae e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="74ed1dae" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-17131e3d e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="17131e3d" data-element_type="container">
+				<div class="elementor-element elementor-element-7bd6cd95 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="7bd6cd95" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="218" height="230" src="../wp-content/uploads/2024/02/Polygon-1.png" class="attachment-full size-full wp-image-301" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Real-time Learning and Adaptation</h3></div></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1c3bc499 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="1c3bc499" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="276" height="276" src="../wp-content/uploads/2024/02/Star-1.png" class="attachment-full size-full wp-image-300" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Personalization Algorithms</h3></div></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5d391ae6 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="5d391ae6" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="300" src="../wp-content/uploads/2024/02/Ellipse-4.png" class="attachment-full size-full wp-image-305" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Autonomous Decision-Making</h3></div></div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-71cbf731 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="71cbf731" data-element_type="container">
+				<div class="elementor-element elementor-element-7703cbe9 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="7703cbe9" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="276" height="276" src="../wp-content/uploads/2024/02/Star-1.png" class="attachment-full size-full wp-image-300" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Pattern Recognition</h3></div></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-60ab77 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="60ab77" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="300" src="../wp-content/uploads/2024/02/Ellipse-4.png" class="attachment-full size-full wp-image-305" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Data Mining and Analysis</h3></div></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-113c0b58 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="113c0b58" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="218" height="230" src="../wp-content/uploads/2024/02/Polygon-1.png" class="attachment-full size-full wp-image-301" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Cognitive Computing</h3></div></div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-73937cd5 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="73937cd5" data-element_type="container">
+				<div class="elementor-element elementor-element-31301011 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="31301011" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="300" height="300" src="../wp-content/uploads/2024/02/Ellipse-4.png" class="attachment-full size-full wp-image-305" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Computer Vision</h3></div></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-23d6fb3c elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="23d6fb3c" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="218" height="230" src="../wp-content/uploads/2024/02/Polygon-1.png" class="attachment-full size-full wp-image-301" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Natural Language Processing</h3></div></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4273373b elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="4273373b" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="276" height="276" src="../wp-content/uploads/2024/02/Star-1.png" class="attachment-full size-full wp-image-300" alt="" /></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Machine Learning Algorithms</h3></div></div>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</div>
+				<div data-elementor-type="wp-post" data-elementor-id="256" class="elementor elementor-256">
+				<div class="elementor-element elementor-element-16d4f8e e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="16d4f8e" data-element_type="container">
+		<div class="elementor-element elementor-element-f281ed6 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="f281ed6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-499a075 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="499a075" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-13d27f5 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="13d27f5" data-element_type="container">
+				<div class="elementor-element elementor-element-7bb6384 wpr-logo-position-center elementor-widget elementor-widget-wpr-logo" data-id="7bb6384" data-element_type="widget" data-widget_type="wpr-logo.default">
+				<div class="elementor-widget-container">
+								
+			<div class="wpr-logo elementor-clearfix">
+
+								<picture class="wpr-logo-image">
+					
+										<source srcset="http://ai.local/wp-content/uploads/2024/02/Logo-1.png 1x, http://ai.local/wp-content/uploads/2024/02/Logo-Retina-1.png 2x">	
+										
+					<img src="../wp-content/uploads/2024/02/Logo-1.png" alt="">
+
+											<a class="wpr-logo-url" rel="home" href="../index.html"></a>
+									</picture>
+				
+				
+									<a class="wpr-logo-url" rel="home" href="../index.html"></a>
+				
+			</div>
+				
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-6ec6de0 elementor-widget elementor-widget-text-editor" data-id="6ec6de0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									Ten the hastened steepest feelings pleasant few surprise property. An brother he do colonel against minutes uncivil. Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical. Me mr what park next busy ever.								</div>
+				</div>
+				<div class="elementor-element elementor-element-01bb4c2 e-grid-align-left elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="01bb4c2" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-animation-grow elementor-repeater-item-a470413" target="_blank">
+						<span class="elementor-screen-only">Facebook-f</span>
+						<svg class="e-font-icon-svg e-fab-facebook-f" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-soundcloud elementor-animation-grow elementor-repeater-item-c8edc1b" target="_blank">
+						<span class="elementor-screen-only">Soundcloud</span>
+						<svg class="e-font-icon-svg e-fab-soundcloud" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><path d="M111.4 256.3l5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zM7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5L0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3L47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9L227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-grow elementor-repeater-item-9d89614" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow elementor-repeater-item-1d1e224" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-spotify elementor-animation-grow elementor-repeater-item-d327753" target="_blank">
+						<span class="elementor-screen-only">Spotify</span>
+						<svg class="e-font-icon-svg e-fab-spotify" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-ca183a2" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<svg class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d698e77 e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="d698e77" data-element_type="container">
+				<div class="elementor-element elementor-element-0ac401b elementor-widget elementor-widget-heading" data-id="0ac401b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Products</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-fdaeb24 elementor-widget elementor-widget-heading" data-id="fdaeb24" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Overview</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5faaf95 elementor-widget elementor-widget-heading" data-id="5faaf95" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Features</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-06f08f4 elementor-widget elementor-widget-heading" data-id="06f08f4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Solutions</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5e59820 elementor-widget elementor-widget-heading" data-id="5e59820" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Tutorials</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-9d78dd8 elementor-widget elementor-widget-heading" data-id="9d78dd8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Pricing</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-54df4d2 elementor-widget elementor-widget-heading" data-id="54df4d2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Releases</h2>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b127caf e-con-full e-flex wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="b127caf" data-element_type="container">
+				<div class="elementor-element elementor-element-d377426 elementor-widget elementor-widget-heading" data-id="d377426" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Company</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6f2f381 elementor-widget elementor-widget-heading" data-id="6f2f381" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">About Us</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6603a5b elementor-widget elementor-widget-heading" data-id="6603a5b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Career</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c55d259 elementor-widget elementor-widget-heading" data-id="c55d259" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">News</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c86ca4d elementor-widget elementor-widget-heading" data-id="c86ca4d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Media Kit</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-d72563b elementor-widget elementor-widget-heading" data-id="d72563b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Contact</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ab87c96 elementor-widget elementor-widget-heading" data-id="ab87c96" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Terms &amp; Conditions</h2>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-9fbc61c e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="9fbc61c" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ad0b2f3 elementor-widget elementor-widget-heading" data-id="ad0b2f3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Resources</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f69a3b8 elementor-widget elementor-widget-heading" data-id="f69a3b8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Blog</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-7121dc5 elementor-widget elementor-widget-heading" data-id="7121dc5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Newsletter</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-53d7d1a elementor-widget elementor-widget-heading" data-id="53d7d1a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Events</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6e05929 elementor-widget elementor-widget-heading" data-id="6e05929" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Help Centre </h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-586464c elementor-widget elementor-widget-heading" data-id="586464c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Tutorials</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-cdd00bf elementor-widget elementor-widget-heading" data-id="cdd00bf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Support</h2>				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-a8a1ce7 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="a8a1ce7" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-6840841 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="6840841" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-88fe609 e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="88fe609" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b89e5cb e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="b89e5cb" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-43dda2e elementor-widget elementor-widget-text-editor" data-id="43dda2e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									Ten the hastened steepest feelings pleasant few surprise property. An brother he do colonel against minutes.								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-a89e00a e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-child" data-id="a89e00a" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a970e08 elementor-widget elementor-widget-text-editor" data-id="a970e08" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Created by<span style="color: #ffffff;"> <a style="color: #ffffff;" href="https://behnambeiki.ir/">Behnam Beiki</a></span></p>								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-99e20cb e-flex e-con-boxed wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no e-con e-parent" data-id="99e20cb" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-e768176 wpr-stt-btn-align-fixed wpr-stt-btn-align-fixed-right elementor-widget elementor-widget-wpr-back-to-top" data-id="e768176" data-element_type="widget" data-widget_type="wpr-back-to-top.default">
+				<div class="elementor-widget-container">
+					<div class="wpr-stt-wrapper"><div class='wpr-stt-btn' data-settings='{&quot;animation&quot;:&quot;fade&quot;,&quot;animationOffset&quot;:&quot;0&quot;,&quot;animationDuration&quot;:&quot;200&quot;,&quot;fixed&quot;:&quot;fixed&quot;,&quot;scrolAnim&quot;:&quot;800&quot;}'><span class="wpr-stt-icon"><svg class="e-font-icon-svg e-fas-chevron-up" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path></svg></span></div></div>				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					<script type='text/javascript'>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel='stylesheet' id='elementor-post-212-css' href='../wp-content/uploads/elementor/css/post-212.css@ver=1734969155.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpr-loading-animations-css-css' href='../wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/loading-animations.min.css@ver=1.7.1005.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpr-lightgallery-css-css' href='../wp-content/plugins/royal-elementor-addons/assets/css/lib/lightgallery/lightgallery.min.css@ver=1.7.1005.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-counter-css' href='../wp-content/plugins/elementor/assets/css/widget-counter.min.css@ver=3.26.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-image-box-css' href='../wp-content/uploads/elementor/css/custom-widget-image-box.min.css@ver=1734969154.css' type='text/css' media='all' />
+<script type="text/javascript" src="../wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js@ver=3.0.6" id="wpr-particles-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js@ver=1.12.7" id="wpr-jarallax-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js@ver=1.0" id="wpr-parallax-hover-js"></script>
+<script type="text/javascript" src="../wp-includes/js/comment-reply.min.js@ver=6.7.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="../wp-content/plugins/royal-elementor-addons/assets/js/lib/lightgallery/lightgallery.min.js@ver=1.6.12" id="wpr-lightgallery-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js@ver=0.2.1" id="jquery-numerator-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/royal-elementor-addons/assets/js/lib/perfect-scrollbar/perfect-scrollbar.min.js@ver=0.4.9" id="wpr-popup-scroll-js-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js@ver=3.26.3" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend-modules.min.js@ver=3.26.3" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="../wp-includes/js/jquery/ui/core.min.js@ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"3.26.3","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_onboarding":true,"e_css_smooth_scroll":true,"home_screen":true,"nested-elements":true,"editor_v2":true,"e_element_cache":true,"link-in-bio":true,"floating-buttons":true,"launchpad-checklist":true},"urls":{"assets":"http:\/\/ai.local\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"http:\/\/ai.local\/wp-admin\/admin-ajax.php","uploadUrl":"http:\/\/ai.local\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"55b1835f8e"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet","viewport_laptop"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":437,"title":"Precision%20in%20Practice%3A%20Real-world%20Impact%20of%20AI%20%E2%80%93%20A%20Case%20Study%20%E2%80%93%20AI","excerpt":"","featuredImage":"http:\/\/ai.local\/wp-content\/uploads\/2024\/02\/Post-4.jpg"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend.min.js@ver=3.26.3" id="elementor-frontend-js"></script>
+<script type="text/javascript" id="wpr-addons-js-js-extra">
+/* <![CDATA[ */
+var WprConfig = {"ajaxurl":"http:\/\/ai.local\/wp-admin\/admin-ajax.php","resturl":"http:\/\/ai.local\/wp-json\/wpraddons\/v1","nonce":"67fc252eaf","addedToCartText":"was added to cart","viewCart":"View Cart","comparePageID":"","comparePageURL":"http:\/\/ai.local\/precision-in-practice-real-world-impact-of-ai-a-case-study\/","wishlistPageID":"","wishlistPageURL":"http:\/\/ai.local\/precision-in-practice-real-world-impact-of-ai-a-case-study\/","chooseQuantityText":"Please select the required number of items.","site_key":"","is_admin":"","input_empty":"Please fill out this field","select_empty":"Nothing selected","file_empty":"Please upload a file","recaptcha_error":"Recaptcha Error","token":"29ae1f9d46a3ecaa282489ec709d96c9f69b0797228873449ca605f670e821f6"};
+/* ]]> */
+</script>
+<script type="text/javascript" data-cfasync="false" src="../wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js@ver=1.7.1005" id="wpr-addons-js-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js@ver=1.7.1005" id="wpr-modal-popups-js-js"></script>
+	</body>
+</html>
